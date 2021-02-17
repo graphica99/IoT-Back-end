@@ -1,0 +1,6 @@
+*Create an account;
+*Create a project;
+  //-project_name,user
+*Add a device
+ //-device_name,device_purpose,MQTT(Id,password)
+*store device data in DB
