@@ -32,6 +32,7 @@ app.use("/device/api", deviceRoute);
 app.use("/device/data/api", getDataRoute);
 app.use("/device/api/summary", summaryRoute);
 app.use("/user/api", userRoute);
+
 // database connection
 mongoose
   .connect(process.env.MONGOOSE_URL, {
